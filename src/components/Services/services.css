@@ -1,0 +1,44 @@
+.services{
+    margin-top: 5%;
+   
+}
+.top-services{
+    padding: 80px 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.5)),url(../images/about/about.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 30vh;
+}
+.featured-boxs2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 80px 50px;
+}
+.box2{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 0 20px 0 rgb(184, 184, 184);
+    padding: 50px 100px;
+    background-color: white;
+}
+.box2 img{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box2 h4{
+    margin-bottom: 10px;
+}
+
+@media (max-width:700px){
+    .featured-boxs2{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        padding: 80px 50px;
+    }
+}

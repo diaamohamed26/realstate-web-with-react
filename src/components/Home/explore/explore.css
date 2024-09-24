@@ -1,0 +1,38 @@
+.explore{
+    padding: 130px 50px;
+    text-align: center;
+
+}
+.explore-heading h1{
+    font-size: 35px;
+}
+.explore-heading p{
+    color: grey;
+    margin: 10px 0;
+}
+.explore-boxs{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+.explore-box img{
+    width: 95%;
+    border-radius: 20px; 
+    align-items: center;
+
+}
+.explore-box h5{
+    color: black;
+    margin-top: 10px;
+    
+    font-size: 20px;
+}
+@media(max-width:700px){
+    .explore-boxs{
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 40px;
+    }
+}

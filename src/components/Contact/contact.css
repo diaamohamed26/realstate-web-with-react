@@ -1,0 +1,57 @@
+.contact-us{
+    margin-top: 5%;
+}
+.top-contact-us{
+    padding: 80px 50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.5)),url(../images/pricing.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 30vh;
+}
+.form-contact{
+    padding: 50px;
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    border-radius: 5px;
+    gap: 20px;
+}
+.name-email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.name-email input{
+    width: 100%;
+    font-size: large;
+    border: 1px solid hsla(0, 0%, 50%, .2);
+    padding: 10px;
+}
+.form-contact input,textarea{
+    border: 1px solid hsla(0, 0%, 50%, .2);
+    padding: 10px;
+}
+.form-contact button{
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    padding: 17px 30px;
+    color: white;
+    font-weight: bold;
+    width: 15%;
+}
+@media (max-width:700px){
+    .form-contact button{
+        background-color: #27ae60;
+        border: none;
+        border-radius: 5px;
+        padding: 17px 30px;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+    }
+
+}   

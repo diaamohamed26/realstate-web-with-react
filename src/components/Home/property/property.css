@@ -1,0 +1,94 @@
+.property{
+    margin: 80px 50px;
+    text-align: center;
+    
+}
+.property h1{
+    font-size: 35;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.property-p{
+    color: #72809d;
+    margin-bottom: 60px;
+}
+.property-boxs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.property-box{
+    width: 100%;
+    box-shadow: 0 0 20px 0 rgba(112, 121, 138, .18);
+}
+.property-box img{
+    width: 100%;
+}
+.rent{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+}
+.property-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 20px;
+
+}
+.price{
+    display: flex;
+    padding: 40px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.for-rent{
+    font-size: large;
+    color: rgb(255, 152, 0);
+    background-color: rgba(255, 152, 0, 0.1);
+    padding: 3px 10px;
+}
+.for-sale{
+    font-size: large;
+    color: rgb(37, 181, 121);
+    background-color: rgba(37, 181, 121, 0.1);
+    padding: 3px 10px;
+}
+.ri-heart-line{
+    font-size: 30px;
+}
+.property-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.property-text h6{
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+.location{
+    font-weight: 500;
+}
+.price h3{
+    font-size: 25px;
+    background-color: #27ae60;
+    cursor: pointer;
+    color: white;
+    padding: 17px 20px;
+    border-radius: 40px;
+}
+.price h6{
+    font-size: large;
+}
+
+
+@media (max-width:700px){
+    .property-boxs{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

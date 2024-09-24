@@ -1,0 +1,55 @@
+.awards{
+    text-align: center;
+    background-color: #122947;
+    color: white;
+    padding: 90px 50px;
+}
+.our-awards{
+    color: #27ae60;
+}
+.awards h1{
+    margin: 10px 0;
+}
+.awards-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    align-items: center;
+}
+.ri-award-line{
+    font-size: 50px;
+    border-radius: 4% 50%;
+    background-color: hsla(0,0%,100%,.1);
+    position: relative;
+    bottom: 25px;
+    padding: 30px;
+}
+.award-icon h1{
+    font-size: 300%;
+}
+.award-icon p{
+    color: grey;
+}
+
+
+@media (max-width:750px){
+    .awards-icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20%;
+        align-items: center;
+        gap: 80px;
+    }
+}
+@media (max-width:500px){
+    .awards-icons{
+        display: block;
+        justify-content: space-between;
+        margin-top: 20%;
+        align-items: center;
+    }
+    .award-icon{
+        margin-top: 80px;
+    }
+}

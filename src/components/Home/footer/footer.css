@@ -1,0 +1,106 @@
+
+.top-footer{
+    padding: 20px 50px;
+    position: relative;
+    background-color: #27ae60;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.questions h1{
+    font-weight: bold;
+
+}
+.contact{
+    text-decoration: none;
+    color: #27ae60;
+    background-color: white;
+    padding: 20px 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: large;
+    border: 5px solid #27ae601f;
+    cursor: pointer;
+}
+.bottom-footer{
+    background-color: #1d2636;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.boxs-footer{
+    padding: 100px 50px;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.box-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo-footer{
+    width: 200px;
+    
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.input-email{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 17px;
+    width: 100%;
+}
+.subscribe{
+    background-color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 17px 30px;
+}
+.designed{
+    
+    color: white;
+    text-align: center;
+
+}
+
+@media(max-width:700px){
+    .boxs-footer{
+        padding: 100px 50px;
+        position: relative;
+        gap: 20px;
+        
+        color: white;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        
+    }
+}
+
+@media(max-width:500px){
+    .boxs-footer{
+        padding: 100px 50px;
+        position: relative;
+        gap: 20px;
+        
+        color: white;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        
+    }
+}
